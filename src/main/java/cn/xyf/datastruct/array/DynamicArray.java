@@ -130,4 +130,8 @@ public class DynamicArray implements Iterable<Integer> {
     public IntStream stream() {
         return IntStream.of(Arrays.copyOfRange(array, 0, size)); // 左闭右开
     }
+
+    public int[] array() {
+        return Arrays.copyOf(array, size);
+    }
 }
