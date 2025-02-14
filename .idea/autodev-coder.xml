@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoDevCoderSettings">
+    <option name="customEngineRequestBodyFormatParam" value="{&quot;customFields&quot;:{&quot;model&quot;:&quot;deepseek-chat&quot;,&quot;stream&quot;:true, &quot;content&quot;:&quot;content&quot;,&quot;role&quot;:&quot;user&quot;}, &quot;messageKeys&quot;: {&quot;role&quot;: &quot;role&quot;, &quot;content&quot;: &quot;content&quot;}}" />
+    <option name="customEngineResponseFormatParam" value="$.choices[0].delta.content" />
+    <option name="customEngineServerParam" value="https://api.deepseek.com/v1/chat/completions" />
+    <option name="customEngineTokenParam" value="sk-8882ebc88b724def9c46dc7453402fa8" />
+  </component>
+</project>
